@@ -19,7 +19,7 @@ nav:
 footer:
   has_built_with_love: true
   html: |
-    {{ site.title }} is built and supported by TEN7 where our mission is to <a href="https://ten7.com/mission">Make Things That Matter</a>.
+    This site is built and supported by TEN7 where our mission is to <a href="https://ten7.com/mission">Make Things That Matter</a>.
 
 google_tag_manager:
   head_html: |
