@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        {{ site.google_tag_manager.page_html }}
+        <!-- End Google Tag Manager (noscript) -->
+
+        {% include header.html %}
+
+        <div class="container">{{ content }}</div>
+
+        {% include footer.html %}
+
+    </body>
+</html>
